@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry
+ * main - entry(print lines of codes using printf)
  * Return: 0
  */
 
