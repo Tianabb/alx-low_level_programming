@@ -7,10 +7,9 @@
 
 int main(void)
 {
-printf("size of char, size of char");
-printf("size of int, size of int");
-printf("size of float, size of float");
-printf("size of a long int, size of long int");
-printf("size of a long long int, size of long long int");
+printf("size of char: 1 byte(s)");
+printf("size of an int: 4 byte(s)");
+printf("size of a long int: 8 byte(s)");
+printf("size of a float: 4 byte(s)");
 return (0);
 }
