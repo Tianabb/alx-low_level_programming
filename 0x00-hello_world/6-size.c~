@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+/**
+ * Main - Entry
+ * Return: 0
+ */
+
+int main(void)
+{
+printf("size of char:%d, size of char");
+printf("size of int:%d, size of int")
+printf("size of float:%d, size of float");
+printf("size of a long int:%d, size of long int");
+printf("size of a long long int:%d, size oflong long int");
+return (0);
+}
