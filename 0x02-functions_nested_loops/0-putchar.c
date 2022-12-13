@@ -10,8 +10,8 @@ int main(void)
 {
 char word[8] = "putchar";
 int w;
-for (w = 0; w <= 8; w++)
-_putchar(word[8]);
+for (w = 0; w < 8; w++)
+_putchar(word[w]);
 
 _putchar('\n');
 return (0);
