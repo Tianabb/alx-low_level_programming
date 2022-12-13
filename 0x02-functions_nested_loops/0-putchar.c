@@ -1,20 +1,19 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - entry
+ * main - print _putchar
  * Return: 0
  */
 
 int main(void)
+
 {
-char _putchar;
-for (_putchar = 'a'; _putchar <= 'z'; _putchar++)
-{
-putchar(_putchar);
-}
-for (_putchar = 'A'; _putchar <= 'Z'; _putchar++)
-{
-putchar(_putchar);
-}
-putchar('\n');
+char word[8] = "_putchar";
+int w;
+
+for (w = 0; w < 8; w++)
+_putchar(word[8]);
+
+_putchar('\n');
 return (0);
 }
