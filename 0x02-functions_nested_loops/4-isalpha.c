@@ -5,10 +5,18 @@
  * @c: thee char is to be checked
  * Return: 1 if char is lowercase or uppercase, otherwise 0
  */
-int _isalpha(int c);
+int _isalpha(int c)
 {
-if ((c >= 'a' && c <= 'z') || (c >= 'A' && <= 'Z'))
-return (1);
-else
-return (0);
+	char okeke, christ;
+	int big = 0;
+
+	for (okeke = 'a'; okeke <= 'z'; okeke++)
+	{
+		for (christ = 'A'; christ <= 'Z'; christ++)
+		{
+			if (c == okeke || c == christ)
+				big = 1;
+		}
+	}
+	return (big);
 }
