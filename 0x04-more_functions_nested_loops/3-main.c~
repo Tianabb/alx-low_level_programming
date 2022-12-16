@@ -1,0 +1,12 @@
+#include "main.h"
+
+/**
+ * main - check code
+ *
+ * Return: 0
+ */
+int main(void)
+{
+ rint_numbers();
+return (0);
+}
